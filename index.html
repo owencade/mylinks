@@ -1,0 +1,152 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* You can customize the style of your site here */
+    body {
+      background-image: url("https://i.imgur.com/K6BpdEu.jpg"); /* Use the photo as the background */
+      background-repeat: no-repeat;
+      background-size: cover; /* Make the background cover the whole viewport */
+      background-attachment: fixed; /* Make the background fixed when scrolling */
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .logo {
+      width: 200px;
+      margin: 20px auto;
+      border-radius: 50%; /* Make the photo circular */
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add some shadow to the photo */
+      filter: grayscale(0.2); /* Add some grayscale effect to the photo */
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: #cccccc;
+    }
+    .links {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      position: sticky; /* Make the links stick to a specified position */
+      top: 40%; /* Specify the position from the top of the viewport */
+      margin-left: 20px; /* Add some margin to create space between links and other elements */
+    }
+    .link {
+      display: block;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.1);backdrop-filter: blur(10px);
+      box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2);
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    /* Add transition for smooth animation */
+    .link {
+      transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Add transition for transform and filter properties */
+    }
+    /* Add animation to the links */
+    .link:hover {
+      transform: scale(1.05); /* Make the link slightly larger when hovered */
+      filter: brightness(1.2); /* Make the link slightly brighter when hovered */
+    }
+    .link:active {
+      transform: scale(0.95); /* Make the link slightly smaller when clicked */
+      filter: brightness(0.8); /* Make the link slightly darker when clicked */
+    }
+    @media screen and (max-width: 600px) {
+    /* For mobile devices, use a 100% width for the container and center it horizontally */
+    .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+    /* You can also adjust other elements such as font size, padding, etc. to fit the smaller screen */
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      padding: 10px;
+    }
+  }
+ @media screen and (max-width: 600px) {
+    /* Use the same background properties but adjust the position and size */
+    body {
+      background: url ('https://i.imgur.com/K6BpdEu.jpg') center center fixed no-repeat;
+      background-position: top center;
+      background-size: cover;
+    }
+  }
+  </style>
+<style>
+/* Create a frosted glass effect using backdrop-filter */
+.bar {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 69px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  /* Use flexbox to align the text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Use a smaller or relative font size for the text */
+.bar p {
+  font-size: 1.5rem; /* Adjust this value to your preference */
+}
+
+/* Center the text and add some padding */
+.bar p {
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Add some shadow to the text */
+.bar p span {
+  text-shadow: 0 0 5px black;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <!-- You can add your profile photo here -->
+    <img src="https://images.koji-cdn.com/cd96dde1-0ff6-452f-81e2-06c7bcaedca6/userData/dwfii-9evN4ohE_400x400.jpg?w=222" alt="Logo" class="logo">
+    <!-- You can change the title and subtitle here -->
+    <h1 class="title">Owen Cade</h1>
+   
+    <!-- You can add or remove links here -->
+    <ul class="links">
+      <li><a href="https://www.instagram.com/owencade2006" class="link">Instagram</a></li>
+      <li><a href="https://www.snapchat.com/add/owencade2006" class="link">Snapchat</a></li>
+      <li><a href="https://linevoom.line.me/user/_dewoYAcCv6ZZGWjt8tekBjJjMvpS5wdN65jgrkk" class="link">LINE</a></li>
+      <li><a href="https://www.tiktok.com/@owen.cade" class="link">TikTok</a></li>
+      <li><a href="https://www.twitter.com/owencade2006" class="link">Twitter</a></li>
+      <li><a href="https://www.nicovideo.jp/user/124912564" class="link">ニコニコ</a></li>
+      <li><a href="https://open.spotify.com/user/zwdipead5zuc79dn3lzsxgb1k?si=XhHG6Rq9SBWPIkx3Sz56pQ&utm_source=copy-link" class="link">Spotify</a></li>
+      <li><a href="https://psnprofiles.com/SirMonkeyBrain" class="link">Playstation</a></li>
+      <li><a href="https://gettr.com/user/owencade" class="link">Gettr</a></li>
+      <li><a href="https://truthsocial.com/@owencade" class="link">Truth Social</a></li>
+      <li><a href="https://vero.co/owencade" class="link">Vero</a></li>
+      <li><a href="https://owencade2006.wixsite.com/gallery" class="link">Gallery</a></li>
+    </ul>
+  </div>
+<div class="bar">
+<p><span>Owen Cade 2023. All images belong to their rightful owners/copyright holders.</span></p>
+</div>
+</body>
+</html>
